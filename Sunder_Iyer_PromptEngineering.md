@@ -475,4 +475,128 @@ For writing a product description for a laptop, medium temperature (0.7) deliver
 
 Part 3: Strategic Prompting Techniques (30 points)
 
+Part 3: Strategic Prompting Techniques (30 points)
 
+
+LLM Used: Chat GPT
+
+
+
+Without chain of though
+
+
+My Prompt :
+
+
+
+I have a meeting at 2:00 PM that requires 1 hour of preparation time, a 30-minute commute, and a 30-minute lunch beforehand. I also have a 45-minute call scheduled at 11:00 AM. What time should I start preparing to make everything work?
+
+
+
+Prompt Output
+
+
+
+You should start preparing at 12:00 PM.
+
+Schedule:
+
+11:00 AM – 11:45 AM: Scheduled call (45 minutes)
+12:00 PM – 1:00 PM: Meeting preparation (1 hour)
+1:00 PM – 1:30 PM: Lunch (30 minutes)
+1:30 PM – 2:00 PM: Commute (30 minutes)
+2:00 PM: Meeting begins
+Therefore, the latest time to start preparing is 12:00 PM. This also leaves a 15-minute gap between the end of the call (11:45 AM) and the start of preparation (12:00 PM).
+
+
+
+2) With chain of Thought
+
+
+
+
+
+Prompt:
+
+
+
+Problem:
+
+I have a meeting at 2:00 PM that requires 1 hour of preparation time. I also need a 30-minute commute to the meeting location and a 30-minute lunch before leaving. Additionally, I have a 45-minute call scheduled at 11:00 AM.
+
+Determine the latest time I should start preparing so that I can complete all activities and arrive at the meeting on time. Show your calculations and reasoning step-by-step before giving the final answer.
+
+
+
+
+
+Output:
+
+
+
+
+
+Answer: Start preparing at 12:00 PM.
+
+Lunch: 1:00 PM – 1:30 PM
+Commute: 1:30 PM – 2:00 PM
+Meeting: 2:00 PM
+
+
+Therefore, preparation must occur from 12:00 PM – 1:00 PM.
+
+
+3)Comparison
+
+
+
+The output generated using the regular prompt provided the correct answer directly without showing how it was calculated. In contrast, the chain-of-thought prompt broke the problem into smaller steps, explaining the timing of the preparation, lunch, commute, and meeting before arriving at the answer.
+
+
+
+ Chain-of thought helps with complex reasoning because it makes the model analyze each requirement systematically, reducing the likelihood of overlooking constraints or making calculation errors. 
+
+
+
+One limitation is that chain-of-thought responses are usually longer and may include unnecessary detail for simple problems where a direct answer would be sufficient.
+
+
+
+
+
+Step1
+
+
+
+Prompt :Classify the sentiment of the following customer review as Positive, Negative, or Neutral. Return only the sentiment label.
+
+2. Test Reviews and Classifications
+**a) Review**
+
+"The product arrived damaged and customer service was unhelpful."
+
+Classification: Negative
+
+**b) Review
+**
+"Works as expected, nothing special but does the job."
+
+Classification: Neutral
+
+**c) Review**
+
+"Absolutely love this! Best purchase I've made all year!"
+
+Classification: Positive
+
+**d) Review
+
+"The quality is okay but slightly overpriced for what you get."
+
+Classification: Neutral
+
+e) Review
+
+"Terrible experience, would not recommend to anyone."
+
+Classification: Negative

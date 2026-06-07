@@ -620,6 +620,15 @@ The product arrived damaged and customer service was unhelpful.	Negative
 
 Works as expected, nothing special but does the job.	Neutral
 
+Step 3: Analysis
+Comparison Table
+Review #	Zero-Shot Result	Few-Shot Result	Correct Label	Improved?
+1	Negative	Negative	Negative	No
+2	Neutral	Neutral	Neutral	No
+3	Positive	Positive	Positive	No
+4	Neutral	Neutral	Neutral	No
+5	Negative	Negative	Negative	No
+
 Absolutely love this! Best purchase I've made all year!	Positive
 
 The quality is okay but slightly overpriced for what you get.	Neutral

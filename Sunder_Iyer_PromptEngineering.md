@@ -615,6 +615,7 @@ Step 2: Few-Shot Attempt
 
 . Summary of Results
 Review	Classification
+
 The product arrived damaged and customer service was unhelpful.	Negative
 
 Works as expected, nothing special but does the job.	Neutral

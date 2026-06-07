@@ -600,3 +600,12 @@ e) Review
 "Terrible experience, would not recommend to anyone."
 
 Classification: Negative
+
+
+3. Summary of Results
+Review	Classification
+The product arrived damaged and customer service was unhelpful.	Negative
+Works as expected, nothing special but does the job.	Neutral
+Absolutely love this! Best purchase I've made all year!	Positive
+The quality is okay but slightly overpriced for what you get.	Neutral
+Terrible experience, would not recommend to anyone.	Negative

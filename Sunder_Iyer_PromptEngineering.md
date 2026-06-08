@@ -641,3 +641,20 @@ Negative: Reviews (a), (e)
 Neutral: Reviews (b), (d)
 
 The few-shot prompt uses labeled examples to demonstrate the expected classification pattern before evaluating the target reviews.
+
+Comparison Table
+Review #	Zero-Shot Result	Few-Shot Result	Correct Label	Improved?
+Review #	Zero-Shot Result	Few-Shot Result	Correct Label	Improved?
+1	Negative	  Negative	  Negative  	No
+2	Neutral    Neutral	   Neutral	   No
+3	Positive	  Positive	  Positive	  No
+4	Neutral	    Neutral	  Neutral	   No
+5	Negative	   Negative	  Negative	  No
+
+
+Analysis
+
+In this example, the zero-shot and few-shot prompts produced the same classifications because the reviews contained clear sentiment cues. Few-shot prompting is most useful when tasks are ambiguous, require a specific output format, or involve domain-specific language. By providing examples, the model better understands the desired pattern and can produce more accurate and consistent results on challenging inputs.
+
+
+

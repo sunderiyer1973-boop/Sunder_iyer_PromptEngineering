@@ -714,4 +714,9 @@ Prompt : Describe an Ideal Candidate for learning new technology
 
 The output did not assume younger is better
 
+4.3
+irst, LLMs sometimes generate incorrect or fabricated information (hallucinations), especially when asked about obscure facts or non-existent events. Second, their reasoning can occasionally be inconsistent, producing different answers to similar questions or making logical mistakes in complex problems. Third, LLMs may misunderstand context or user intent when prompts are ambiguous, leading to responses that do not fully address the requirement.
+
+For responsible use of LLMs, outputs should always be verified when dealing with factual, academic, financial, legal, medical, or business-critical information. LLMs are not suitable as the sole source for high-stakes decisions, real-time facts, or information that requires guaranteed accuracy. To use LLMs ethically in work and studies, users should fact-check important outputs, avoid presenting AI-generated content as entirely their own work when disclosure is required, and use LLMs as a tool for learning, brainstorming, and productivity rather than as a replacement for human judgment and expertise.
+
 
